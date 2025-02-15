@@ -1,0 +1,72 @@
+# Django
+*.log
+*.pot
+*.pyc
+__pycache__/
+db.sqlite3
+media/
+staticfiles/
+
+# Environment variables
+.env
+.env.local
+.env.dev
+.env.prod
+
+# Virtual environment
+venv/
+env/
+.venv/
+ENV/
+
+# IDE/Editor specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node.js (if you're using a frontend framework like React or Vue)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Frontend build files (if applicable)
+/dist/
+/build/
+/static/
+
+# macOS specific files
+.DS_Store
+
+# Database migrations (optional, but be careful)
+/migrations/
+
+# Testing
+.coverage
+htmlcov/
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# Pyenv
+.python-version
+
+# Celery
+celerybeat-schedule
+
+# PyTest
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Logs
+logs/
+*.log
+
+# Local development
+local_settings.py
